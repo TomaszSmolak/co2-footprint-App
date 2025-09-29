@@ -20,23 +20,14 @@ import Datenschutz from "./components/Footer/Datenschutz.comp.jsx";
 export default function App() {
   return (
     <Routes>
-      {/* Layout-Route (ohne Pfad): liefert Navbar/Title + Outlet + Footer */}
       <Route element={<Layout />}>
-        {/* Startseite */}
         <Route index element={<Hero />} />
-
-        {/* Weitere Seiten */}
         <Route path="data" element={<Table />} />
         <Route path="companies" element={<Company />} />
         <Route path="countries" element={<Country />} />
-
-        {/* About: mit Navbar verknüpft (Navbar: to="/about") */}
         <Route path="about" element={<AboutUs />} />
-
-        {/* Rechtliches */}
         <Route path="impressum" element={<Impressum />} />
         <Route path="datenschutz" element={<Datenschutz />} />
-
       </Route>
     </Routes>
   );

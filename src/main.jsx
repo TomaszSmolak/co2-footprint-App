@@ -18,7 +18,7 @@ import 'flag-icons/css/flag-icons.min.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* Router für Client-Side-Routing */}
-    <BrowserRouter>
+    <BrowserRouter basename="/co2-footprint-App">
       <App />
     </BrowserRouter>
   </StrictMode>

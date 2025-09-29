@@ -72,7 +72,7 @@ export default function Navbar() {
                 {/* Externer Link zum Repository (neuer Tab, sicherer rel-Attributsatz) */}
                 <a
                   className="nav-link"
-                  href="https://github.com/TomaszSmolak/co2-footprint-app"
+                  href="https://github.com/TomaszSmolak/co2-footprint-App"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
