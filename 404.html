@@ -1,0 +1,10 @@
+<!doctype html>
+<meta charset="utf-8">
+<script>
+  // Repo-Basis
+  var base = '/co2-footprint-App';
+  // Original-Pfad (z. B. /co2-footprint-App/about)
+  var path = location.pathname.replace(base, '');
+  // Auf die Startseite umleiten und den Pfad als Query anhängen
+  location.replace(base + '/?p=' + encodeURIComponent(path + location.search + location.hash));
+</script>

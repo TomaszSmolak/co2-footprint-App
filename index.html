@@ -1,10 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/co2-footprint-App/umcatla-logo2.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CO2-Footprint</title>
+    <script>
+      (function () {
+        var q = new URLSearchParams(window.location.search);
+        var p = q.get("p");
+        if (p) {
+          // z. B. p="/about" → URL wiederherstellen, ohne Reload
+          history.replaceState(null, null, p);
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/co2-footprint-App/assets/index-BUxsWq_M.js"></script>
     <link rel="stylesheet" crossorigin href="/co2-footprint-App/assets/index-BZH85B6K.css">
   </head>
