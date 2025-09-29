@@ -7,11 +7,13 @@
     <title>CO2-Footprint</title>
     <script>
       (function () {
+        // Basis = Repo-Pfad
+        var base = "/co2-footprint-App";
         var q = new URLSearchParams(window.location.search);
-        var p = q.get("p");
+        var p = q.get("p"); // z. B. "/about"
         if (p) {
-          // z. B. p="/about" → URL wiederherstellen, ohne Reload
-          history.replaceState(null, null, p);
+          // WICHTIG: wieder mit Repo-Basis zusammensetzen!
+          history.replaceState(null, null, base + p);
         }
       })();
     </script>
