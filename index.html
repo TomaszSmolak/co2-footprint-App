@@ -1,10 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/umcatla-logo2.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CO2-Footprint</title>
+    <script>
+      (function () {
+        // Basis = Repo-Pfad
+        var base = "/co2-footprint-App";
+        var q = new URLSearchParams(window.location.search);
+        var p = q.get("p"); // z. B. "/about"
+        if (p) {
+          // WICHTIG: wieder mit Repo-Basis zusammensetzen!
+          history.replaceState(null, null, base + p);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
