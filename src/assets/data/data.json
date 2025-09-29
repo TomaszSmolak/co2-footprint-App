@@ -1,0 +1,1446 @@
+{
+  "countries": [
+    {
+      "countryId": 1,
+      "name": "Deutschland",
+      "iso": "de",
+      "co2Emissions": {
+        "2020": 981,
+        "2021": 558,
+        "2022": 282,
+        "2023": 535,
+        "2024": 1152
+      }
+    },
+    {
+      "countryId": 2,
+      "name": "Frankreich",
+      "iso": "fr",
+      "co2Emissions": {
+        "2020": 746,
+        "2021": 996,
+        "2022": 595,
+        "2023": 454,
+        "2024": 1010
+      }
+    },
+    {
+      "countryId": 3,
+      "name": "Italien",
+      "iso": "it",
+      "co2Emissions": {
+        "2020": 1080,
+        "2021": 850,
+        "2022": 1163,
+        "2023": 1095,
+        "2024": 1092
+      }
+    },
+    {
+      "countryId": 4,
+      "name": "Spanien",
+      "iso": "es",
+      "co2Emissions": {
+        "2020": 388,
+        "2021": 621,
+        "2022": 349,
+        "2023": 1005,
+        "2024": 490
+      }
+    },
+    {
+      "countryId": 5,
+      "name": "Polen",
+      "iso": "pl",
+      "co2Emissions": {
+        "2020": 816,
+        "2021": 385,
+        "2022": 640,
+        "2023": 627,
+        "2024": 679
+      }
+    },
+    {
+      "countryId": 6,
+      "name": "Niederlande",
+      "iso": "nl",
+      "co2Emissions": {
+        "2020": 1044,
+        "2021": 894,
+        "2022": 1010,
+        "2023": 1017,
+        "2024": 863
+      }
+    },
+    {
+      "countryId": 7,
+      "name": "Belgien",
+      "iso": "be",
+      "co2Emissions": {
+        "2020": 409,
+        "2021": 485,
+        "2022": 961,
+        "2023": 456,
+        "2024": 610
+      }
+    },
+    {
+      "countryId": 8,
+      "name": "Österreich",
+      "iso": "at",
+      "co2Emissions": {
+        "2020": 1011,
+        "2021": 1008,
+        "2022": 730,
+        "2023": 773,
+        "2024": 542
+      }
+    },
+    {
+      "countryId": 9,
+      "name": "Schweiz",
+      "iso": "ch",
+      "co2Emissions": {
+        "2020": 1191,
+        "2021": 216,
+        "2022": 673,
+        "2023": 637,
+        "2024": 424
+      }
+    },
+    {
+      "countryId": 10,
+      "name": "Dänemark",
+      "iso": "dk",
+      "co2Emissions": {
+        "2020": 211,
+        "2021": 576,
+        "2022": 455,
+        "2023": 352,
+        "2024": 667
+      }
+    },
+    {
+      "countryId": 11,
+      "name": "Schweden",
+      "iso": "se",
+      "co2Emissions": {
+        "2020": 369,
+        "2021": 871,
+        "2022": 433,
+        "2023": 1020,
+        "2024": 975
+      }
+    },
+    {
+      "countryId": 12,
+      "name": "Norwegen",
+      "iso": "no",
+      "co2Emissions": {
+        "2020": 864,
+        "2021": 1115,
+        "2022": 691,
+        "2023": 312,
+        "2024": 229
+      }
+    },
+    {
+      "countryId": 13,
+      "name": "Finnland",
+      "iso": "fi",
+      "co2Emissions": {
+        "2020": 308,
+        "2021": 215,
+        "2022": 1086,
+        "2023": 828,
+        "2024": 517
+      }
+    },
+    {
+      "countryId": 14,
+      "name": "Portugal",
+      "iso": "pt",
+      "co2Emissions": {
+        "2020": 948,
+        "2021": 1135,
+        "2022": 779,
+        "2023": 207,
+        "2024": 1066
+      }
+    },
+    {
+      "countryId": 15,
+      "name": "Griechenland",
+      "iso": "gr",
+      "co2Emissions": {
+        "2020": 723,
+        "2021": 477,
+        "2022": 1041,
+        "2023": 850,
+        "2024": 1143
+      }
+    },
+    {
+      "countryId": 16,
+      "name": "Ungarn",
+      "iso": "hu",
+      "co2Emissions": {
+        "2020": 290,
+        "2021": 523,
+        "2022": 992,
+        "2023": 925,
+        "2024": 486
+      }
+    },
+    {
+      "countryId": 17,
+      "name": "Tschechien",
+      "iso": "cz",
+      "co2Emissions": {
+        "2020": 498,
+        "2021": 416,
+        "2022": 938,
+        "2023": 635,
+        "2024": 201
+      }
+    },
+    {
+      "countryId": 18,
+      "name": "Slowakei",
+      "iso": "sk",
+      "co2Emissions": {
+        "2020": 761,
+        "2021": 397,
+        "2022": 262,
+        "2023": 565,
+        "2024": 343
+      }
+    },
+    {
+      "countryId": 19,
+      "name": "Irland",
+      "iso": "ie",
+      "co2Emissions": {
+        "2020": 556,
+        "2021": 889,
+        "2022": 790,
+        "2023": 538,
+        "2024": 211
+      }
+    },
+    {
+      "countryId": 20,
+      "name": "Luxemburg",
+      "iso": "lu",
+      "co2Emissions": {
+        "2020": 1180,
+        "2021": 337,
+        "2022": 757,
+        "2023": 848,
+        "2024": 438
+      }
+    },
+    {
+      "countryId": 21,
+      "name": "Estland",
+      "iso": "ee",
+      "co2Emissions": {
+        "2020": 631,
+        "2021": 1189,
+        "2022": 959,
+        "2023": 925,
+        "2024": 213
+      }
+    },
+    {
+      "countryId": 22,
+      "name": "Lettland",
+      "iso": "lv",
+      "co2Emissions": {
+        "2020": 908,
+        "2021": 239,
+        "2022": 253,
+        "2023": 1102,
+        "2024": 1020
+      }
+    },
+    {
+      "countryId": 23,
+      "name": "Litauen",
+      "iso": "lt",
+      "co2Emissions": {
+        "2020": 765,
+        "2021": 919,
+        "2022": 877,
+        "2023": 1180,
+        "2024": 227
+      }
+    },
+    {
+      "countryId": 24,
+      "name": "Slowenien",
+      "iso": "si",
+      "co2Emissions": {
+        "2020": 736,
+        "2021": 517,
+        "2022": 1155,
+        "2023": 1093,
+        "2024": 1074
+      }
+    },
+    {
+      "countryId": 25,
+      "name": "Kroatien",
+      "iso": "hr",
+      "co2Emissions": {
+        "2020": 283,
+        "2021": 794,
+        "2022": 493,
+        "2023": 487,
+        "2024": 261
+      }
+    },
+    {
+      "countryId": 26,
+      "name": "Bulgarien",
+      "iso": "bg",
+      "co2Emissions": {
+        "2020": 929,
+        "2021": 1147,
+        "2022": 1042,
+        "2023": 582,
+        "2024": 458
+      }
+    },
+    {
+      "countryId": 27,
+      "name": "Rumänien",
+      "iso": "ro",
+      "co2Emissions": {
+        "2020": 747,
+        "2021": 1108,
+        "2022": 689,
+        "2023": 288,
+        "2024": 813
+      }
+    },
+    {
+      "countryId": 28,
+      "name": "Türkei",
+      "iso": "tr",
+      "co2Emissions": {
+        "2020": 764,
+        "2021": 504,
+        "2022": 264,
+        "2023": 1035,
+        "2024": 858
+      }
+    },
+    {
+      "countryId": 29,
+      "name": "USA",
+      "iso": "us",
+      "co2Emissions": {
+        "2020": 983,
+        "2021": 482,
+        "2022": 924,
+        "2023": 277,
+        "2024": 431
+      }
+    },
+    {
+      "countryId": 30,
+      "name": "Kanada",
+      "iso": "ca",
+      "co2Emissions": {
+        "2020": 359,
+        "2021": 1152,
+        "2022": 1101,
+        "2023": 942,
+        "2024": 244
+      }
+    }
+  ],
+  "companies": [
+    {
+      "companyId": 1,
+      "name": "Rheindorf Dynamics",
+      "countryId": 1,
+      "co2Emissions": {
+        "2020": 41,
+        "2021": 36,
+        "2022": 34,
+        "2023": 15,
+        "2024": 26
+      }
+    },
+    {
+      "companyId": 2,
+      "name": "Hansecon International Global",
+      "countryId": 1,
+      "co2Emissions": {
+        "2020": 27,
+        "2021": 22,
+        "2022": 17,
+        "2023": 26,
+        "2024": 16
+      }
+    },
+    {
+      "companyId": 3,
+      "name": "Isarau Manufacturing",
+      "countryId": 1,
+      "co2Emissions": {
+        "2020": 17,
+        "2021": 23,
+        "2022": 42,
+        "2023": 34,
+        "2024": 50
+      }
+    },
+    {
+      "companyId": 4,
+      "name": "Sevremont Networks",
+      "countryId": 2,
+      "co2Emissions": {
+        "2020": 44,
+        "2021": 8,
+        "2022": 42,
+        "2023": 20,
+        "2024": 31
+      }
+    },
+    {
+      "companyId": 5,
+      "name": "Loirevia Consulting Global",
+      "countryId": 2,
+      "co2Emissions": {
+        "2020": 5,
+        "2021": 43,
+        "2022": 38,
+        "2023": 39,
+        "2024": 36
+      }
+    },
+    {
+      "companyId": 6,
+      "name": "Montpar Group",
+      "countryId": 2,
+      "co2Emissions": {
+        "2020": 32,
+        "2021": 9,
+        "2022": 10,
+        "2023": 9,
+        "2024": 17
+      }
+    },
+    {
+      "companyId": 7,
+      "name": "Torinex Resources & Co.",
+      "countryId": 3,
+      "co2Emissions": {
+        "2020": 22,
+        "2021": 25,
+        "2022": 14,
+        "2023": 31,
+        "2024": 29
+      }
+    },
+    {
+      "companyId": 8,
+      "name": "Milaniq Analytics",
+      "countryId": 3,
+      "co2Emissions": {
+        "2020": 15,
+        "2021": 13,
+        "2022": 24,
+        "2023": 49,
+        "2024": 19
+      }
+    },
+    {
+      "companyId": 9,
+      "name": "Valmoda Resources",
+      "countryId": 3,
+      "co2Emissions": {
+        "2020": 24,
+        "2021": 37,
+        "2022": 44,
+        "2023": 30,
+        "2024": 33
+      }
+    },
+    {
+      "companyId": 10,
+      "name": "Navarix Materials",
+      "countryId": 4,
+      "co2Emissions": {
+        "2020": 49,
+        "2021": 44,
+        "2022": 25,
+        "2023": 13,
+        "2024": 14
+      }
+    },
+    {
+      "companyId": 11,
+      "name": "Navarix Consulting",
+      "countryId": 4,
+      "co2Emissions": {
+        "2020": 47,
+        "2021": 44,
+        "2022": 26,
+        "2023": 18,
+        "2024": 32
+      }
+    },
+    {
+      "companyId": 12,
+      "name": "Catalyxa Logistics",
+      "countryId": 4,
+      "co2Emissions": {
+        "2020": 32,
+        "2021": 12,
+        "2022": 11,
+        "2023": 8,
+        "2024": 45
+      }
+    },
+    {
+      "companyId": 13,
+      "name": "Vistalux Manufacturing",
+      "countryId": 5,
+      "co2Emissions": {
+        "2020": 10,
+        "2021": 15,
+        "2022": 45,
+        "2023": 20,
+        "2024": 38
+      }
+    },
+    {
+      "companyId": 14,
+      "name": "Mazovia International & Co.",
+      "countryId": 5,
+      "co2Emissions": {
+        "2020": 50,
+        "2021": 22,
+        "2022": 41,
+        "2023": 15,
+        "2024": 20
+      }
+    },
+    {
+      "companyId": 15,
+      "name": "Mazovia Holdings",
+      "countryId": 5,
+      "co2Emissions": {
+        "2020": 36,
+        "2021": 8,
+        "2022": 31,
+        "2023": 47,
+        "2024": 42
+      }
+    },
+    {
+      "companyId": 16,
+      "name": "Zuider Technologies",
+      "countryId": 6,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 43,
+        "2022": 39,
+        "2023": 37,
+        "2024": 18
+      }
+    },
+    {
+      "companyId": 17,
+      "name": "Randstat Industries",
+      "countryId": 6,
+      "co2Emissions": {
+        "2020": 29,
+        "2021": 46,
+        "2022": 37,
+        "2023": 20,
+        "2024": 38
+      }
+    },
+    {
+      "companyId": 18,
+      "name": "Deltamax Group",
+      "countryId": 6,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 25,
+        "2022": 14,
+        "2023": 14,
+        "2024": 32
+      }
+    },
+    {
+      "companyId": 19,
+      "name": "Limburgia Logistics",
+      "countryId": 7,
+      "co2Emissions": {
+        "2020": 8,
+        "2021": 42,
+        "2022": 30,
+        "2023": 19,
+        "2024": 32
+      }
+    },
+    {
+      "companyId": 20,
+      "name": "Brabantia Automation & Co.",
+      "countryId": 7,
+      "co2Emissions": {
+        "2020": 36,
+        "2021": 36,
+        "2022": 24,
+        "2023": 39,
+        "2024": 27
+      }
+    },
+    {
+      "companyId": 21,
+      "name": "Brabantia Systems & Co.",
+      "countryId": 7,
+      "co2Emissions": {
+        "2020": 30,
+        "2021": 45,
+        "2022": 13,
+        "2023": 12,
+        "2024": 48
+      }
+    },
+    {
+      "companyId": 22,
+      "name": "Tirolia Partners",
+      "countryId": 8,
+      "co2Emissions": {
+        "2020": 17,
+        "2021": 11,
+        "2022": 48,
+        "2023": 46,
+        "2024": 15
+      }
+    },
+    {
+      "companyId": 23,
+      "name": "Alpeniq Concepts",
+      "countryId": 8,
+      "co2Emissions": {
+        "2020": 45,
+        "2021": 19,
+        "2022": 38,
+        "2023": 46,
+        "2024": 43
+      }
+    },
+    {
+      "companyId": 24,
+      "name": "Vorarlix Solutions Global",
+      "countryId": 8,
+      "co2Emissions": {
+        "2020": 47,
+        "2021": 48,
+        "2022": 7,
+        "2023": 16,
+        "2024": 40
+      }
+    },
+    {
+      "companyId": 25,
+      "name": "Rhonevia Networks & Co.",
+      "countryId": 9,
+      "co2Emissions": {
+        "2020": 31,
+        "2021": 44,
+        "2022": 20,
+        "2023": 48,
+        "2024": 39
+      }
+    },
+    {
+      "companyId": 26,
+      "name": "Rhonevia Analytics",
+      "countryId": 9,
+      "co2Emissions": {
+        "2020": 18,
+        "2021": 42,
+        "2022": 7,
+        "2023": 10,
+        "2024": 42
+      }
+    },
+    {
+      "companyId": 27,
+      "name": "Gotthara Labs",
+      "countryId": 9,
+      "co2Emissions": {
+        "2020": 10,
+        "2021": 33,
+        "2022": 33,
+        "2023": 23,
+        "2024": 26
+      }
+    },
+    {
+      "companyId": 28,
+      "name": "Odensia International",
+      "countryId": 10,
+      "co2Emissions": {
+        "2020": 13,
+        "2021": 37,
+        "2022": 45,
+        "2023": 25,
+        "2024": 23
+      }
+    },
+    {
+      "companyId": 29,
+      "name": "Copenhaven Works",
+      "countryId": 10,
+      "co2Emissions": {
+        "2020": 15,
+        "2021": 11,
+        "2022": 18,
+        "2023": 42,
+        "2024": 21
+      }
+    },
+    {
+      "companyId": 30,
+      "name": "Jutlandra Manufacturing",
+      "countryId": 10,
+      "co2Emissions": {
+        "2020": 10,
+        "2021": 34,
+        "2022": 15,
+        "2023": 17,
+        "2024": 21
+      }
+    },
+    {
+      "companyId": 31,
+      "name": "Gotalynx Materials",
+      "countryId": 11,
+      "co2Emissions": {
+        "2020": 24,
+        "2021": 35,
+        "2022": 12,
+        "2023": 35,
+        "2024": 25
+      }
+    },
+    {
+      "companyId": 32,
+      "name": "Malaron Partners & Co.",
+      "countryId": 11,
+      "co2Emissions": {
+        "2020": 14,
+        "2021": 49,
+        "2022": 44,
+        "2023": 49,
+        "2024": 35
+      }
+    },
+    {
+      "companyId": 33,
+      "name": "Skandinav Analytics & Co.",
+      "countryId": 11,
+      "co2Emissions": {
+        "2020": 22,
+        "2021": 19,
+        "2022": 32,
+        "2023": 22,
+        "2024": 8
+      }
+    },
+    {
+      "companyId": 34,
+      "name": "Tromsico Industries",
+      "countryId": 12,
+      "co2Emissions": {
+        "2020": 27,
+        "2021": 35,
+        "2022": 20,
+        "2023": 11,
+        "2024": 33
+      }
+    },
+    {
+      "companyId": 35,
+      "name": "Bergensis Logistics",
+      "countryId": 12,
+      "co2Emissions": {
+        "2020": 40,
+        "2021": 33,
+        "2022": 49,
+        "2023": 18,
+        "2024": 36
+      }
+    },
+    {
+      "companyId": 36,
+      "name": "Oslofyn Works",
+      "countryId": 12,
+      "co2Emissions": {
+        "2020": 11,
+        "2021": 48,
+        "2022": 26,
+        "2023": 12,
+        "2024": 39
+      }
+    },
+    {
+      "companyId": 37,
+      "name": "Helsory Holdings & Co.",
+      "countryId": 13,
+      "co2Emissions": {
+        "2020": 28,
+        "2021": 32,
+        "2022": 21,
+        "2023": 23,
+        "2024": 40
+      }
+    },
+    {
+      "companyId": 38,
+      "name": "Vaasanex Concepts",
+      "countryId": 13,
+      "co2Emissions": {
+        "2020": 21,
+        "2021": 47,
+        "2022": 12,
+        "2023": 13,
+        "2024": 29
+      }
+    },
+    {
+      "companyId": 39,
+      "name": "Lappiqa Resources",
+      "countryId": 13,
+      "co2Emissions": {
+        "2020": 43,
+        "2021": 5,
+        "2022": 26,
+        "2023": 33,
+        "2024": 20
+      }
+    },
+    {
+      "companyId": 40,
+      "name": "Lusitano Logistics Global",
+      "countryId": 14,
+      "co2Emissions": {
+        "2020": 32,
+        "2021": 44,
+        "2022": 10,
+        "2023": 12,
+        "2024": 40
+      }
+    },
+    {
+      "companyId": 41,
+      "name": "Lusitano Networks",
+      "countryId": 14,
+      "co2Emissions": {
+        "2020": 32,
+        "2021": 29,
+        "2022": 32,
+        "2023": 24,
+        "2024": 12
+      }
+    },
+    {
+      "companyId": 42,
+      "name": "Tejovix Technologies",
+      "countryId": 14,
+      "co2Emissions": {
+        "2020": 49,
+        "2021": 28,
+        "2022": 8,
+        "2023": 28,
+        "2024": 45
+      }
+    },
+    {
+      "companyId": 43,
+      "name": "Pelopon Holdings",
+      "countryId": 15,
+      "co2Emissions": {
+        "2020": 42,
+        "2021": 6,
+        "2022": 23,
+        "2023": 25,
+        "2024": 43
+      }
+    },
+    {
+      "companyId": 44,
+      "name": "Attican Logistics",
+      "countryId": 15,
+      "co2Emissions": {
+        "2020": 49,
+        "2021": 14,
+        "2022": 13,
+        "2023": 25,
+        "2024": 23
+      }
+    },
+    {
+      "companyId": 45,
+      "name": "Attican Resources",
+      "countryId": 15,
+      "co2Emissions": {
+        "2020": 12,
+        "2021": 12,
+        "2022": 11,
+        "2023": 15,
+        "2024": 32
+      }
+    },
+    {
+      "companyId": 46,
+      "name": "Alfolda Concepts & Co.",
+      "countryId": 16,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 45,
+        "2022": 46,
+        "2023": 16,
+        "2024": 34
+      }
+    },
+    {
+      "companyId": 47,
+      "name": "Alfolda Group",
+      "countryId": 16,
+      "co2Emissions": {
+        "2020": 18,
+        "2021": 23,
+        "2022": 20,
+        "2023": 16,
+        "2024": 13
+      }
+    },
+    {
+      "companyId": 48,
+      "name": "Debreson International",
+      "countryId": 16,
+      "co2Emissions": {
+        "2020": 28,
+        "2021": 34,
+        "2022": 5,
+        "2023": 20,
+        "2024": 36
+      }
+    },
+    {
+      "companyId": 49,
+      "name": "Prahanor Networks & Co.",
+      "countryId": 17,
+      "co2Emissions": {
+        "2020": 13,
+        "2021": 47,
+        "2022": 25,
+        "2023": 34,
+        "2024": 34
+      }
+    },
+    {
+      "companyId": 50,
+      "name": "Bohemion Solutions",
+      "countryId": 17,
+      "co2Emissions": {
+        "2020": 6,
+        "2021": 32,
+        "2022": 10,
+        "2023": 22,
+        "2024": 11
+      }
+    },
+    {
+      "companyId": 51,
+      "name": "Prahanor Manufacturing",
+      "countryId": 17,
+      "co2Emissions": {
+        "2020": 14,
+        "2021": 22,
+        "2022": 8,
+        "2023": 8,
+        "2024": 17
+      }
+    },
+    {
+      "companyId": 52,
+      "name": "Hronia Materials & Co.",
+      "countryId": 18,
+      "co2Emissions": {
+        "2020": 12,
+        "2021": 7,
+        "2022": 27,
+        "2023": 27,
+        "2024": 11
+      }
+    },
+    {
+      "companyId": 53,
+      "name": "Zvolenex Resources",
+      "countryId": 18,
+      "co2Emissions": {
+        "2020": 30,
+        "2021": 50,
+        "2022": 42,
+        "2023": 23,
+        "2024": 33
+      }
+    },
+    {
+      "companyId": 54,
+      "name": "Tatrion Manufacturing",
+      "countryId": 18,
+      "co2Emissions": {
+        "2020": 49,
+        "2021": 30,
+        "2022": 40,
+        "2023": 19,
+        "2024": 25
+      }
+    },
+    {
+      "companyId": 55,
+      "name": "Shannonex Networks",
+      "countryId": 19,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 22,
+        "2022": 40,
+        "2023": 24,
+        "2024": 8
+      }
+    },
+    {
+      "companyId": 56,
+      "name": "Limeriq Works Global",
+      "countryId": 19,
+      "co2Emissions": {
+        "2020": 35,
+        "2021": 32,
+        "2022": 17,
+        "2023": 23,
+        "2024": 21
+      }
+    },
+    {
+      "companyId": 57,
+      "name": "Dublinar Partners",
+      "countryId": 19,
+      "co2Emissions": {
+        "2020": 8,
+        "2021": 27,
+        "2022": 19,
+        "2023": 46,
+        "2024": 16
+      }
+    },
+    {
+      "companyId": 58,
+      "name": "Clervia Analytics & Co.",
+      "countryId": 20,
+      "co2Emissions": {
+        "2020": 27,
+        "2021": 45,
+        "2022": 34,
+        "2023": 49,
+        "2024": 13
+      }
+    },
+    {
+      "companyId": 59,
+      "name": "Echtern Industries",
+      "countryId": 20,
+      "co2Emissions": {
+        "2020": 5,
+        "2021": 5,
+        "2022": 40,
+        "2023": 39,
+        "2024": 28
+      }
+    },
+    {
+      "companyId": 60,
+      "name": "Alzetta Manufacturing",
+      "countryId": 20,
+      "co2Emissions": {
+        "2020": 20,
+        "2021": 38,
+        "2022": 32,
+        "2023": 16,
+        "2024": 12
+      }
+    },
+    {
+      "companyId": 61,
+      "name": "Tallinex Industries",
+      "countryId": 21,
+      "co2Emissions": {
+        "2020": 27,
+        "2021": 33,
+        "2022": 7,
+        "2023": 46,
+        "2024": 35
+      }
+    },
+    {
+      "companyId": 62,
+      "name": "Tallinex Labs Global",
+      "countryId": 21,
+      "co2Emissions": {
+        "2020": 45,
+        "2021": 10,
+        "2022": 33,
+        "2023": 48,
+        "2024": 22
+      }
+    },
+    {
+      "companyId": 63,
+      "name": "Tartar Logistics",
+      "countryId": 21,
+      "co2Emissions": {
+        "2020": 42,
+        "2021": 42,
+        "2022": 26,
+        "2023": 10,
+        "2024": 32
+      }
+    },
+    {
+      "companyId": 64,
+      "name": "Jelgavax Holdings",
+      "countryId": 22,
+      "co2Emissions": {
+        "2020": 46,
+        "2021": 42,
+        "2022": 36,
+        "2023": 6,
+        "2024": 26
+      }
+    },
+    {
+      "companyId": 65,
+      "name": "Daugavan Manufacturing",
+      "countryId": 22,
+      "co2Emissions": {
+        "2020": 6,
+        "2021": 19,
+        "2022": 11,
+        "2023": 46,
+        "2024": 40
+      }
+    },
+    {
+      "companyId": 66,
+      "name": "Rigarya Technologies",
+      "countryId": 22,
+      "co2Emissions": {
+        "2020": 19,
+        "2021": 28,
+        "2022": 5,
+        "2023": 37,
+        "2024": 44
+      }
+    },
+    {
+      "companyId": 67,
+      "name": "Zemaitec Labs & Co.",
+      "countryId": 23,
+      "co2Emissions": {
+        "2020": 9,
+        "2021": 16,
+        "2022": 49,
+        "2023": 31,
+        "2024": 7
+      }
+    },
+    {
+      "companyId": 68,
+      "name": "Zemaitec Automation & Co.",
+      "countryId": 23,
+      "co2Emissions": {
+        "2020": 46,
+        "2021": 47,
+        "2022": 22,
+        "2023": 6,
+        "2024": 21
+      }
+    },
+    {
+      "companyId": 69,
+      "name": "Kaunasyn Materials",
+      "countryId": 23,
+      "co2Emissions": {
+        "2020": 7,
+        "2021": 38,
+        "2022": 12,
+        "2023": 10,
+        "2024": 46
+      }
+    },
+    {
+      "companyId": 70,
+      "name": "Ljublen Works",
+      "countryId": 24,
+      "co2Emissions": {
+        "2020": 48,
+        "2021": 7,
+        "2022": 40,
+        "2023": 34,
+        "2024": 24
+      }
+    },
+    {
+      "companyId": 71,
+      "name": "Ljublen Concepts",
+      "countryId": 24,
+      "co2Emissions": {
+        "2020": 15,
+        "2021": 44,
+        "2022": 43,
+        "2023": 46,
+        "2024": 38
+      }
+    },
+    {
+      "companyId": 72,
+      "name": "Alpion Consulting",
+      "countryId": 24,
+      "co2Emissions": {
+        "2020": 21,
+        "2021": 8,
+        "2022": 13,
+        "2023": 7,
+        "2024": 50
+      }
+    },
+    {
+      "companyId": 73,
+      "name": "Savanor Networks & Co.",
+      "countryId": 25,
+      "co2Emissions": {
+        "2020": 46,
+        "2021": 31,
+        "2022": 30,
+        "2023": 45,
+        "2024": 8
+      }
+    },
+    {
+      "companyId": 74,
+      "name": "Zagrebon Concepts",
+      "countryId": 25,
+      "co2Emissions": {
+        "2020": 46,
+        "2021": 33,
+        "2022": 13,
+        "2023": 47,
+        "2024": 17
+      }
+    },
+    {
+      "companyId": 75,
+      "name": "Istravia Consulting",
+      "countryId": 25,
+      "co2Emissions": {
+        "2020": 33,
+        "2021": 19,
+        "2022": 39,
+        "2023": 9,
+        "2024": 21
+      }
+    },
+    {
+      "companyId": 76,
+      "name": "Sofianex Industries Global",
+      "countryId": 26,
+      "co2Emissions": {
+        "2020": 5,
+        "2021": 20,
+        "2022": 32,
+        "2023": 34,
+        "2024": 31
+      }
+    },
+    {
+      "companyId": 77,
+      "name": "Balkanor Systems",
+      "countryId": 26,
+      "co2Emissions": {
+        "2020": 32,
+        "2021": 37,
+        "2022": 33,
+        "2023": 36,
+        "2024": 14
+      }
+    },
+    {
+      "companyId": 78,
+      "name": "Balkanor Concepts",
+      "countryId": 26,
+      "co2Emissions": {
+        "2020": 21,
+        "2021": 45,
+        "2022": 31,
+        "2023": 28,
+        "2024": 31
+      }
+    },
+    {
+      "companyId": 79,
+      "name": "Iasiq Materials",
+      "countryId": 27,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 41,
+        "2022": 15,
+        "2023": 5,
+        "2024": 27
+      }
+    },
+    {
+      "companyId": 80,
+      "name": "Timison Logistics & Co.",
+      "countryId": 27,
+      "co2Emissions": {
+        "2020": 36,
+        "2021": 38,
+        "2022": 20,
+        "2023": 12,
+        "2024": 12
+      }
+    },
+    {
+      "companyId": 81,
+      "name": "Bucarest Materials",
+      "countryId": 27,
+      "co2Emissions": {
+        "2020": 5,
+        "2021": 16,
+        "2022": 10,
+        "2023": 13,
+        "2024": 7
+      }
+    },
+    {
+      "companyId": 82,
+      "name": "Kapadok Concepts",
+      "countryId": 28,
+      "co2Emissions": {
+        "2020": 41,
+        "2021": 30,
+        "2022": 9,
+        "2023": 32,
+        "2024": 42
+      }
+    },
+    {
+      "companyId": 83,
+      "name": "Bosphora Networks Global",
+      "countryId": 28,
+      "co2Emissions": {
+        "2020": 35,
+        "2021": 8,
+        "2022": 20,
+        "2023": 11,
+        "2024": 44
+      }
+    },
+    {
+      "companyId": 84,
+      "name": "Bosphora Holdings",
+      "countryId": 28,
+      "co2Emissions": {
+        "2020": 27,
+        "2021": 40,
+        "2022": 12,
+        "2023": 40,
+        "2024": 37
+      }
+    },
+    {
+      "companyId": 85,
+      "name": "Prairieon Solutions",
+      "countryId": 29,
+      "co2Emissions": {
+        "2020": 44,
+        "2021": 17,
+        "2022": 18,
+        "2023": 36,
+        "2024": 50
+      }
+    },
+    {
+      "companyId": 86,
+      "name": "Hudsonix Industries & Co.",
+      "countryId": 29,
+      "co2Emissions": {
+        "2020": 50,
+        "2021": 27,
+        "2022": 25,
+        "2023": 19,
+        "2024": 50
+      }
+    },
+    {
+      "companyId": 87,
+      "name": "SierraVale Manufacturing",
+      "countryId": 29,
+      "co2Emissions": {
+        "2020": 38,
+        "2021": 21,
+        "2022": 40,
+        "2023": 38,
+        "2024": 18
+      }
+    },
+    {
+      "companyId": 88,
+      "name": "Nordlake Labs Global",
+      "countryId": 30,
+      "co2Emissions": {
+        "2020": 26,
+        "2021": 35,
+        "2022": 16,
+        "2023": 37,
+        "2024": 26
+      }
+    },
+    {
+      "companyId": 89,
+      "name": "StLaurent Works",
+      "countryId": 30,
+      "co2Emissions": {
+        "2020": 44,
+        "2021": 11,
+        "2022": 6,
+        "2023": 27,
+        "2024": 25
+      }
+    },
+    {
+      "companyId": 90,
+      "name": "Prairielog Manufacturing Global",
+      "countryId": 30,
+      "co2Emissions": {
+        "2020": 48,
+        "2021": 25,
+        "2022": 10,
+        "2023": 33,
+        "2024": 16
+      }
+    }
+  ]
+}

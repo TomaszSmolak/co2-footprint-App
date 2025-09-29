@@ -1,0 +1,21 @@
+/* Farb-Token für das Theme (global verfügbar über :root)
+   Hinweis: Semantische Namen (primary, secondary, accent, …) erleichtern spätere Anpassungen. */
+:root {
+  --color-primary:   #2e7d32; /* kräftiges Grün (Hervorhebungen, Links, Buttons) */
+  --color-secondary: #e8f5e9; /* helles Grün (Hintergründe/Flächen) */
+  --color-accent:    #0288d1; /* Blau (sekundäre Akzente) */
+  --color-light:     #ffffff; /* Weiß (helle Flächen) */
+  --color-dark:      #212529; /* Dunkelgrau (Standardtext) */
+  --color-warning:   #ff9800; /* Orange (Hinweise/Warnings) */
+  --color-danger:    #c62828; /* Rot (Fehler/Alerts) */
+}
+
+/* Optional: Dark-Mode-Varianten (bei Bedarf aktivieren/anpassen)
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-secondary: #102116; 
+    --color-light:     #0b0f0c;
+    --color-dark:      #e6e6e6;
+  }
+}
+*/

@@ -1,0 +1,7 @@
+/* Globaler Reset: Basisabstände entfernen, verlässliches Boxmodell, Standardtextfarbe setzen */
+* {
+  margin: 0;                         /* Default-Ränder zurücksetzen */
+  padding: 0;                        /* Default-Innenabstände zurücksetzen */
+  box-sizing: border-box;            /* Breiten/Höhen inkl. Padding/Border berechnen */
+  color: var(--color-dark);          /* Standardtextfarbe aus Theme-Variablen */
+}

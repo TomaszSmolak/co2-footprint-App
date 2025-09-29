@@ -1,0 +1,44 @@
+/* Navbar: feine Schattenkante im Sticky-Zustand */
+.navbar.sticky-top {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Links: Grundzustand */
+.navbar .nav-link {
+  color: var(--color-dark);
+  font-weight: 500;
+}
+
+/* Links: Hover/Focus */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* Aktiver Link (NavLink vergibt .active) */
+.navbar .nav-link.active {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Toggler (Button/Ikone) für Mobilmenü */
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-light .navbar-toggler-icon {
+  filter: contrast(0.6);
+}
+
+/* Brand-Icon: proportional skalieren */
+.brand-icon {
+  max-height: 40px;
+  width: auto;
+}
+
+/* Hintergrund + Unterkante der Navbar (Farben aus variables.css) */
+.navbar {
+  background-color: var(--color-light);
+  border-bottom: 1px solid var(--color-primary);
+}

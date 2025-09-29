@@ -1,0 +1,68 @@
+.footer {
+  /* nutzt deine globalen Variablen */
+  background: radial-gradient(
+      700px 400px at 100% 120%,
+      color-mix(in srgb, var(--color-primary) 12%, transparent),
+      transparent 70%
+    ),
+    /* Start minimal dunkler als die Seite -> bessere Absetzung */
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--color-secondary) 85%, var(--color-light)) 0%,
+        var(--color-secondary) 100%
+      );
+  color: var(--color-dark);
+
+  /* KLARE, aber dezente Trennung zum Content */
+  border-top: 1px solid color-mix(in srgb, var(--color-dark) 14%, transparent);
+  position: relative;
+  isolation: isolate;
+
+  /* weicher „Schatten“ nach oben innen */
+  box-shadow: 0 -10px 24px rgba(0, 0, 0, 0.06) inset,
+    0 -1px 0 color-mix(in srgb, var(--color-dark) 10%, transparent) inset;
+}
+
+/* Brand */
+.footer__logo {
+  font-weight: 700;
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  color: var(--color-dark);
+  letter-spacing: 0.2px;
+}
+.footer__logo:hover {
+  color: var(--color-primary);
+  text-shadow: 0 0 12px
+    color-mix(in srgb, var(--color-primary) 40%, transparent);
+}
+
+/* Claim / Links / Meta bleiben wie zuvor */
+.footer__tagline {
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+.footer__link {
+  color: var(--color-dark) !important;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, background-color 0.2s ease,
+    border-color 0.2s ease, color 0.2s ease;
+}
+.footer__link:hover {
+  color: var(--color-primary) !important;
+  background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  border-color: color-mix(in srgb, var(--color-primary) 35%, transparent);
+  transform: translateY(-1px);
+}
+
+.footer__meta {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .footer__meta {
+    text-align: center;
+  }
+}

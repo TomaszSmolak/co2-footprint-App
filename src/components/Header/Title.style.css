@@ -1,0 +1,43 @@
+/* Logos global: skalieren proportional zur Höhe; Block-Element vermeidet Inline-Lücken */
+.logo {
+  max-height: 40px; /* Obergrenze für die Höhe – Breite passt sich automatisch an */
+  width: auto; /* Seitenverhältnis bleibt erhalten */
+  display: block; /* verhindert zusätzliche Inline-Abstände */
+  object-fit: contain; /* Inhalt vollständig sichtbar (wirkt v. a. bei festen Breiten/Höhen) */
+}
+/* Titelleiste (Header): Typografie, Hintergrund, visuelle Absetzung zum Inhalt */
+.titlebar {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  word-break: keep-all; /* Wörter möglichst nicht umbrechen */
+  background-color: var(
+    --color-secondary
+  ); /* Farben kommen aus variables.css */
+  /* border-bottom: 1px solid var(--color-primary); */ /* Alternative klare Trennlinie */
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.08); /* dezente Schattenkante unten */
+  padding: 0.75rem 1rem; /* vertikal/horizontaler Innenabstand */
+}
+/* Spezifische Logo-Anpassungen */
+.iu-logo {
+  width: 120px; /* feste Breite für konsistente Markenwirkung */
+}
+.umcatla-logo {
+  border-radius: 20px; /* abgerundete Ecken für das Bild rechts */
+}
+/* Responsive Feinjustierung (≤ 576px: Bootstrap „sm“-Breakpoint) */
+@media (max-width: 576px) {
+  .logo {
+    max-height: 28px; /* Logos kleiner auf sehr kleinen Screens */
+  }
+  .title {
+    font-size: 1.125rem;
+    line-height: 1.25;
+    word-break: keep-all;
+  }
+}
+/* Sehr kleine Geräte (≤ 380px): Titel noch kompakter */
+@media (max-width: 380px) {
+  .title {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,17 @@
+/* Glasbox (Frosted-Glass-Effekt) für Inhalte/Karten */
+.glassbox {
+  background: rgba(255, 255, 255, 0.08);     /* transluzenter Hintergrund */
+  border: 1px solid rgba(255, 255, 255, 0.2);/* feine Kontur */
+  border-radius: 16px;                        /* weiche Ecken */
+  backdrop-filter: blur(10px);                /* Glas-/Unschärfe-Effekt (unterstützte Browser) */
+  -webkit-backdrop-filter: blur(10px);        /* Safari */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15); /* dezente Tiefe */
+}
+
+/* Dark-Mode-Feintuning: etwas dunkler/kontrastreicher */
+@media (prefers-color-scheme: dark) {
+  .glassbox {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}

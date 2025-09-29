@@ -1,0 +1,11 @@
+/* Hero-Abschnitt: fast volle Viewport-Höhe, ruhiger Hintergrund */
+.hero-section {
+  min-height: 90vh;                      /* nahezu volle Höhe */
+  background-color: var(--color-secondary); /* alternativ: Gradient siehe unten */
+}
+
+/* Logo: responsiv skalieren, Seitenverhältnis beibehalten */
+.hero-logo {
+  max-width: 300px;
+  height: auto;
+}

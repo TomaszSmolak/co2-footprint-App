@@ -1,0 +1,26 @@
+{
+    "country": {
+        "countryId": 1,
+        "name": "Deutschland",
+        "iso": "de",
+        "co2Emissions": {
+            "2020": 981,
+            "2021": 558,
+            "2022": 282,
+            "2023": 535,
+            "2024": 1152
+        }
+    },
+    "company": {
+        "companyId": 1,
+        "name": "Rheindorf Dynamics",
+        "countryId": 1,
+        "co2Emissions": {
+            "2020": 41,
+            "2021": 36,
+            "2022": 34,
+            "2023": 15,
+            "2024": 26
+        }
+    }
+}
