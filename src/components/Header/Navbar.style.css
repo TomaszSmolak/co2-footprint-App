@@ -42,3 +42,8 @@
   background-color: var(--color-light);
   border-bottom: 1px solid var(--color-primary);
 }
+.nav-local {
+  margin-inline-start: auto;
+  display: flex;
+  gap: .25rem; /* optional hübsch */
+}

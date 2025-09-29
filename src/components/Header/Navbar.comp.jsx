@@ -4,23 +4,15 @@
  * - Automatische Ausrichtung der Nav-Liste (links/rechts) je nach Textausrichtung (LTR/RTL).
  */
 
-import { useMemo } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.style.css";
 import umcatlaLogo from "../../assets/logos/umcatla-logo2.png";
 
 export default function Navbar() {
-  // Ausrichtung der Navigation abhängig von der Dokument-Ausrichtung:
-  // - LTR: rechts bündig (ms-auto)
-  // - RTL: links bündig (me-auto)
-  const alignClass = useMemo(() => {
-    const dir = document?.dir || document?.documentElement?.dir || "ltr";
-    return dir === "rtl" ? "me-auto" : "ms-auto";
-  }, []);
   return (
     <>
       {/* Sticky Navbar: bleibt oben kleben; leichte Unterkante via border-bottom */}
-      <nav className="navbar navbar-expand-md navbar-light border-bottom sticky-top">
+      <nav className="navbar navbar-expand-md navbar-light border-bottom sticky-top" dir="ltr">
         <div className="container-fluid">
           {/* Brand-Bereich: Icon + Projekttitel, Link zur Startseite */}
           <NavLink
@@ -49,7 +41,7 @@ export default function Navbar() {
           {/* Kollabierbarer Bereich mit den Navigationslinks */}
           <div className="collapse navbar-collapse" id="mainNav">
             {/* Ausrichtung dynamisch (LTR/RTL) + mobile Abstände (mb-2) */}
-            <ul className={`navbar-nav ${alignClass} mb-2 mb-md-0`}>
+            <ul className="navbar-nav nav-local mb-2 mb-md-0">
               <li className="nav-item">
                 {/* "end" sorgt dafür, dass "/" nur auf der Startseite aktiv ist */}
                 <NavLink className="nav-link" end to="/">
@@ -80,7 +72,7 @@ export default function Navbar() {
                 {/* Externer Link zum Repository (neuer Tab, sicherer rel-Attributsatz) */}
                 <a
                   className="nav-link"
-                  href="https://github.com/TomaszSmolak/co2-footprint"
+                  href="https://github.com/TomaszSmolak/co2-footprint-app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
