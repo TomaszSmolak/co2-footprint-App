@@ -27,7 +27,7 @@ export default function Title() {
         {/* Rechte Spalte: UMCATLA-Logo mit Link zum Repository */}
         <div className="col-3 d-flex justify-content-end">
           <a
-            href="https://github.com/TomaszSmolak/co2-footprint"
+            href="https://github.com/TomaszSmolak/co2-footprint-APP"
             target="_blank"
             rel="noopener noreferrer"
             className="d-inline-block"
